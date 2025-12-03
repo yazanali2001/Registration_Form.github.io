@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css.css">
+    <title>Registration Form</title>
+</head>
+<body>
+        <div class="form-container">
+            <div class="form sign-up-form">
+                <h2>Sign up</h2>
+                <div class="show"><i class="user">👤</i><input type="text" id="name" placeholder="Name" required /></div>
+                <div class="show"><i class="ema">📧 </i><input type="email" id="email" placeholder="Email " required /></div>
+                <div class="show"><i class="pass">🔒</i><input type="password" id="password" placeholder="Password" required /></div>
+                <div class="show"><i class="confpass">🔒</i><input type="password" id="confirmPassword" placeholder="Confirm Password" required /></div>
+                
+                
+                
+                
+                <button id="registerButton">Register</button>
+                <p id="registrationError" class="error"></p>
+            </div>
+            <div class="form sign-in-form">
+                <h2>Sign in</h2>
+                <div class="adj">
+                    <div class="show"><i class="ema">📧 </i><input type="email" id="loginEmail" class="loginEmail" placeholder="Email" required /></div>
+                 <div class="show"><i class="pass">🔒</i><input type="password" id="loginPassword" class="loginPassword" placeholder="Password" required /></div>
+                <button id="loginButton">Sign in</button>
+                </div>
+                
+                <p id="loginError" class="error"></p>
+            </div>
+<div class="trans" >
+    <p class="signin">already have an account ?<span id="switchToLogin"> Sign in</span>
+    <p class="signup"> Don't have an account ?<span id="switchToRegister">Creat Account</span><p>
+</div>
+        </div>
+        
+    <script src="js.js"></script>
+</body>
+</html>

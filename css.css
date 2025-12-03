@@ -1,0 +1,140 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #746a6a;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    margin-top: 10%;
+}
+
+.form-container{
+    
+    width: 800px;
+    background-color: rgb(255, 255, 255);
+    border: rgb(0, 0, 0) 5px solid;
+    border-radius: 20px;
+    
+    overflow: hidden;
+    display: flex;
+    position: relative;
+}
+input {
+    font-weight: bold;
+    color: #000000;
+    background-color: #b5b6b6;
+    width: 70%;
+    padding: 10px;
+    margin-left: 2%;
+    border: rgb(27, 1, 9) 1px solid;
+    border-radius: 10px;
+    
+    
+    
+}
+button {
+    width: 50%;
+    padding: 10px;
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    margin: 3% 25% 0 25%;
+    border: rgb(0, 0, 0) 2px solid;
+}
+h2{
+    font-size: 35px;
+    font-weight: 700;
+    color: #fffdfd;
+    padding: 10px 0 15px 50px;
+    width: 100%;
+    margin-top: 0% ;
+    background-color:#000000;
+}
+p {
+    color: #ccc;
+    font-size: larger;
+    text-align: center;
+}
+span {
+    padding: 5px 0 5px 0 ;
+    color: #000000;
+    cursor: pointer;
+    background-color: #ffffff;
+    border: 5px inherit #ccc;
+    border-radius: 10px;
+    display: block;
+    margin-top: 5%;
+}
+button:hover {
+    background-color: #ffffff;
+    color: #000000;
+    font-weight: bolder;
+}
+span:hover{
+    color: #000000;
+   font-weight: bolder; 
+   background-color: #746a6a;
+}
+.trans{
+    background-color: #000000;
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    margin-left: 50%;
+    z-index: 100;
+    border: rgb(0, 0, 0) 1px solid;
+    border-radius: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.5s ease 0.05s;
+    
+}
+.sign-in-form{
+width: 400px;
+}
+.sign-up-form{  
+width: 400px;
+}
+.trans.active{
+    transform: translatex(-100%);
+}
+
+.error {
+    color: rgb(197, 0, 0);
+    text-align: center;
+}
+input:hover{
+    background-color: #c7c5c5;
+    color: #000;
+}
+.signup{
+   display: none;
+}
+.signup.active{
+    display: block;
+}
+.signin.active{
+    display: none;
+}
+
+.ema{
+    margin-left: -5px;
+    
+}
+i{
+    font-style: normal;
+}
+.show{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+    
+}
+.adj{
+    margin-top: 80px;
+}
